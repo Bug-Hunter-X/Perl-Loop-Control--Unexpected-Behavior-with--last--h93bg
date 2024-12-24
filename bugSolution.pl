@@ -1,0 +1,1 @@
+my @array = (1..10); foreach my $i (@array) { if ($i == 5) { last; } print "$i "; } print "\n"; #This is correct.  No changes needed to fix this specific instance of the last statement.  However, unexpected behavior can occur with last used in nested loops or other more complex control structures.
